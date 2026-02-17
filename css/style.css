@@ -383,6 +383,7 @@ color: rgba(252, 217, 128,1);
 .client {
        padding-top: 126px;
        padding-bottom: 140px;
+       background-color: #F4F6FC;
     }
 .client .container h2 {
         font-size: 36px;
@@ -413,16 +414,18 @@ color: rgba(252, 217, 128,1);
 /* client css ends here  */
 /* frequnt css starts here */
 .frequent {
-    padding-top: 100px;
+    padding-top: 135px;
     padding-left: 158px;
     padding-right: 159px;
-    padding-bottom: 62px;
+    padding-bottom: 130px;
 }
 .frequent .container h4 {
     font-size: 38px;
     font-weight: 600;
      font-family: "Poppins", sans-serif;
      color: rgba(40, 41, 56,1);
+     width: 328px;
+     line-height: 56px;
 }
 .frequent .container a {
     color: rgba(36, 5, 242,0.87);
@@ -447,3 +450,102 @@ color: rgba(252, 217, 128,1);
    left: 282px;
 
 }
+.frequent .container .accordion-header .accordion-button {
+      font-size: 24px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color:rgba(40, 41, 56,1);
+}
+.frequent .container .accordion-header .accordion-button span {
+      font-size: 24px;
+    font-weight: 500;
+      font-family: "Poppins", sans-serif;
+     color: rgba(36, 5, 242,1);
+     padding-right: 59px;
+   
+}
+.frequent .accordion-body {
+    padding: 0px 102px;
+      font-size: 18px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: rgba(40, 41, 56,0.87);
+}
+.frequent .container .accordion-item {
+    border: 0px !important;
+}
+.frequent .container .accordion-header {
+    /* padding: 32px 0px; */
+}
+.frequent .accordion-header {
+    
+     padding: 12px 0px;
+}
+.accordion-button.collapsed {
+background-color: transparent !important;
+border: none !important;
+box-shadow: none !important;
+
+}
+.accordion-button{
+   
+     /* border: none !important; */
+    background-color: transparent !important;
+    box-shadow: none !important;
+    /* border-bottom:1px solid #ECECF1 ; */
+
+  
+}
+/* .accordion-button.collapse {
+    border: none !important;
+} */
+/* .accordion-collapse {
+    border-bottom: 1px solid green;
+} */
+
+/* .accordion-collapse.collapse {
+   
+    border: none !important;
+} */
+/* real */
+
+
+
+.accordion-button {
+ border-bottom: 1px solid red;
+  
+}
+.accordion-button .collapsed {
+      
+       border-bottom: none !important;
+ }
+/* 
+.
+/* 
+
+} */ 
+/*  */
+
+.accordion-collapse.collapse {
+   
+    border-bottom: 1px solid #ECECF1;
+}
+/*  */
+.accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    content: "x";
+    transform: rotate(0);
+    /* content: "bijoy"; */
+   
+}
+
+
+
+.accordion-button::after {
+    background-image: none !important;
+    content: "+";
+    transform: rotate(0);
+    /* content: "ajoy"; */
+   
+}
+      
