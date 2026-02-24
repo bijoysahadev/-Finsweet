@@ -1,0 +1,39 @@
+@media (min-width:320px) and (max-width:575.99px) {
+    /* navbar bar responsice starts here */
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+.navbar-toggler i {
+    color: white;
+    font-size: 18px;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 transparent !important;
+}
+.navbar-nav {
+    align-items: center;
+  
+   
+    padding: 20px 0px;
+}
+.navbar-collapse {
+    background-color: GREEN;
+      border-radius: 10px;
+      margin: 20px 0px;
+}
+.nav-link {
+    font-size: 14px !important;
+   
+}
+.nav-button {
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 0px;
+}
+.nav-button:hover {
+    background-color: transparent !important;
+    color: WHITE !important;
+}
+/* navbar responsive ends here */
+}
