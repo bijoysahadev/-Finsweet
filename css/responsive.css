@@ -107,6 +107,7 @@ nav .nav-button {
 	
 	
 }
+
 .Card7008  {
     justify-content: center;
     margin-top: 40px;
@@ -116,6 +117,9 @@ nav .nav-button {
     width: 80%;
     border-radius: 10px;
     padding: 20px 10px;
+}
+.Work .container .tittle-box-center {
+	text-align: center;
 }
 .work-card p {
 	font-size: 14px;
@@ -211,4 +215,816 @@ nav .nav-button {
 	text-align: center;
 	margin-left: 20px;
 }
+.frequent .container .accordion-header .accordion-button span {
+	font-size: 14px;
+
+	padding-right: 19px;
+}
+
+.frequent .container .accordion-header .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.frequent .accordion-body {
+	padding: 0px 6px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.frequent .accordion-header {
+	padding: 7px 0px;
+}
 /* features responsive ends here */
+/* contact-us responsive start */
+.contact-us img {
+	width: 100%;
+	
+}
+.contact-us .contatc-content {
+	width: 100%;
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact-us .contatc-content input {
+	width: 100%;
+	padding: 9px 18px;
+	
+	color: white;
+	font-size: 14px;
+}
+.contact-us .contatc-content input::placeholder {
+	font-size: 12px;
+}
+.contact-us .contatc-content button {
+	
+	padding: 11px 0px;
+	
+
+	font-size: 14px;
+	font-weight: 400;
+	
+
+}
+.tittle .viewpricing-button {
+	margin-left: 11px;
+}
+/* contact-us responsive end here */
+/* footer responsive  start*/
+
+
+footer .contact-part {
+	width: auto;
+	bottom: -296px;
+	left: 127px;
+	padding: 18px;
+	border-radius: 10px;
+}
+footer .contact-part .contact-part-one h6 {
+	
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-two h6 {
+
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-one p {
+	
+	font-size: 14px;
+	margin-right: 10px;
+
+}
+footer .contact-part .contact-part-two p {
+	
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-one 
+{
+	text-align: center;
+}
+footer .contact-part .contact-part-two{
+	text-align: center;
+}
+footer .pone {
+	font-size: 14px;
+	
+	width: auto;
+	padding-top: 22px;
+	text-align: center;
+}
+footer .tittle h2 {
+
+	font-size: 14px;
+	
+	
+	width: auto;
+	text-align: center;
+}
+footer .container .foooter-center {
+
+ text-align: center
+}
+footer .container .foooter-icons-center {
+	text-align: center;
+	font-size: 14px;
+}
+footer ul {
+	
+	text-align: center;
+	margin-left: 150px;
+} 
+/* footer responsive ends */
+}
+@media (min-width:576px) and (max-width:767.99px) {
+    /* navbar bar responsice starts here */
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+.navbar-toggler i {
+    color: white;
+    font-size: 18px;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 transparent !important;
+}
+.navbar-nav {
+    align-items: center;
+  
+   
+    padding: 20px 0px;
+}
+.navbar-collapse {
+    background-color: blueviolet;
+      border-radius: 10px;
+      margin: 20px 0px;
+}
+.nav-link {
+    font-size: 14px !important;
+   
+}
+/*  */
+
+/*  */
+nav .nav-button {
+	padding: 12px 30px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	margin-left: 190px;
+}
+.nav-button:hover {
+    background-color: transparent !important;
+    color: WHITE !important;
+}
+/* navbar responsive ends here */
+/* bannner responsive starts here */
+.banner h1 {
+	
+	width:auto;
+	text-align: center;
+	line-height: 63px;
+}
+.banner p {
+	width: auto;
+	font-size: 23px;
+	line-height: 24px;
+	text-align: center;
+	line-height: 42px;
+}
+.banner-button {
+	padding: 9px 39px;
+	
+	font-size: 14px;
+	
+	
+}
+.banner-button:hover {
+ background: #FCD980;
+ color: #1B1C2B;
+}
+.viewpricing-button {
+	
+	font-size: 14px;
+	
+	margin-left: 30px;
+	
+}
+.banner .banner-image {
+    text-align: center;
+}
+.banner .banner-image img {
+	width: 100%;
+	margin-top: 40px;
+}
+.banner .bannner-button-group {
+    text-align: center;
+
+/* bannner responsive ends here */
+/* work responsive stars here */
+}
+
+.tittle h2 {
+	
+	font-size: 36px;
+	
+	width: auto;
+	text-align: center;
+}
+.tittle p {
+	width:auto;
+	font-size: 14px;
+	
+	text-align: center;
+}
+.tittle .viewpricing-button {
+	margin-left: 22px;
+}
+.tittle a {
+	font-size: 14px;
+	
+	
+}
+
+.Card7008  {
+    justify-content: center;
+    margin-top: 40px;
+}
+.Card7008 .col-lg-6 {
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.Work .container .tittle-box-center {
+	text-align: center;
+}
+.work-card p {
+	font-size: 14px;
+	
+	line-height: 25px;
+	width: auto;
+}
+/* work responsive  ends here */
+/* project responsive starts here */
+.tittle h2 {
+	font-size: 25px;
+	width: auto;
+	text-align: center;
+}
+.tittle a {
+	font-size: 12px;
+}
+
+.Project .container .project-card img {
+    width: 80%;
+}
+.Project .container .project-card2 {
+    text-align: center;
+}
+.Project .container .project-card3 {
+    text-align: center;
+}
+.Project .container .project-card {
+    text-align: center;
+}
+.Project .container .project-card img:nth-child(1) {
+    margin: 30px 0px;
+}
+/* Project Overlays - Disable on Mobile */
+.Project .overly, 
+.Project .overly2, 
+.Project .overly3 {
+    display: none !important;
+}
+
+/* Ensure the hover state doesn't trigger anything else */
+.Project .project-card:hover .overly,
+.Project .project-card2:hover .overly2,
+.Project .project-card3:hover .overly3 {
+    display: none !important;
+}
+/* project responsive ends here */
+/* feature responsvie starts here */
+.features .container h2 {
+	font-size: 30px;
+;   text-align: center;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-bottom: 47px;
+}
+/* features responsive ends here */
+/* clinet responsive starts here */
+
+.client .container h2 {
+	font-size: 21px;
+  text-align: center;
+}
+.client .container p {
+	font-size: 14px;
+	
+	width: auto;
+	text-align: center;
+	line-height: 51px;
+}
+/* client responsive ends here */
+.client .container h3 {
+
+	font-size: 16px;
+	
+	text-align: center;
+    line-height: 41px;
+}
+.client .container .profile {
+
+	justify-content: center;
+}
+/* feratures responsive starts */
+.frequent .container h4 {
+	font-size: 28px;
+	width: auto;
+	line-height: 46px;
+	text-align: center;
+}
+
+.frequent .container a {
+	font-size: 14px;
+	text-align: center;
+	margin-left: 20px;
+}
+.frequent .container .accordion-header .accordion-button span {
+	font-size: 14px;
+
+	padding-right: 19px;
+}
+
+.frequent .container .accordion-header .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.frequent .accordion-body {
+	padding: 0px 6px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.frequent .accordion-header {
+	padding: 7px 0px;
+}
+/* features responsive ends here */
+/* contact-us responsive start */
+.contact-us img {
+	width: 100%;
+	
+}
+.contact-us .contatc-content {
+	width: 100%;
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact-us .contatc-content input {
+	width: 100%;
+	padding: 9px 18px;
+	
+	color: white;
+	font-size: 14px;
+}
+.contact-us .contatc-content input::placeholder {
+	font-size: 12px;
+}
+.contact-us .contatc-content button {
+	
+	padding: 11px 0px;
+	
+
+	font-size: 14px;
+	font-weight: 400;
+	
+
+}
+.tittle .viewpricing-button {
+	margin-left: 11px;
+}
+/* contact-us responsive end here */
+/* footer responsive  start*/
+
+
+footer .contact-part {
+	width: auto;
+	bottom: -296px;
+	left: 127px;
+	padding: 18px;
+	border-radius: 10px;
+}
+footer .contact-part .contact-part-one h6 {
+	
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-two h6 {
+
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-one p {
+	
+	font-size: 14px;
+	margin-right: 10px;
+
+}
+footer .contact-part .contact-part-two p {
+	
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-one 
+{
+	text-align: center;
+}
+footer .contact-part .contact-part-two{
+	text-align: center;
+}
+footer .pone {
+	font-size: 17px;
+	width: auto;
+	padding-top: 22px;
+	text-align: center;
+}
+footer .tittle h2 {
+	font-size: 23px;
+	width: auto;
+	text-align: center;
+}
+footer .container .foooter-center {
+
+ text-align: center
+}
+footer .container .foooter-icons-center {
+	text-align: center;
+	font-size: 14px;
+}
+footer ul {
+	
+	text-align: center;
+	margin-left: 150px;
+} 
+/* footer responsive ends */
+}
+@media (min-width:768px) and (max-width:991.99px) {
+    /* navbar bar responsice starts here */
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+.navbar-toggler i {
+    color: white;
+    font-size: 18px;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 transparent !important;
+}
+.navbar-nav {
+    align-items: center;
+  
+   
+    padding: 20px 0px;
+}
+.navbar-collapse {
+    background-color: blueviolet;
+      border-radius: 10px;
+      margin: 20px 0px;
+}
+.nav-link {
+	font-size: 27px !important;
+}
+/*  */
+
+/*  */
+nav .nav-button {
+	padding: 12px 30px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	margin-left:0px !important;
+}
+nav .nav-button-center {
+	text-align: center;
+}
+.nav-button:hover {
+    background-color: transparent !important;
+    color: WHITE !important;
+}
+/* navbar responsive ends here */
+/* bannner responsive starts here */
+.banner h1 {
+	
+	width:auto;
+	text-align: center;
+	line-height: 63px;
+}
+.banner p {
+	width: auto;
+	font-size: 23px;
+	line-height: 24px;
+	text-align: center;
+	line-height: 42px;
+}
+.banner-button {
+	padding: 9px 39px;
+	
+	font-size: 14px;
+	
+	
+}
+.banner-button:hover {
+ background: #FCD980;
+ color: #1B1C2B;
+}
+.viewpricing-button {
+	
+	font-size: 14px;
+	
+	margin-left: 30px;
+	
+}
+.banner .banner-image {
+    text-align: center;
+}
+.banner .banner-image img {
+	width: 100%;
+	margin-top: 40px;
+}
+.banner .bannner-button-group {
+    text-align: center;
+
+/* bannner responsive ends here */
+/* work responsive stars here */
+}
+
+.tittle h2 {
+	
+	font-size: 36px;
+	
+	width: auto;
+	text-align: center;
+}
+.tittle p {
+	width: auto;
+	font-size: 23px;
+	text-align: center;
+}
+.tittle .viewpricing-button {
+	margin-left: 22px;
+}
+.tittle a {
+	font-size: 14px;
+	
+	
+}
+
+.Card7008  {
+    justify-content: center;
+    margin-top: 40px;
+}
+.Card7008 .col-lg-6 {
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.Work .container .tittle-box-center {
+	text-align: center;
+}
+.work-card p {
+	font-size: 20px;
+	line-height: 25px;
+	width: auto;
+}
+/* work responsive  ends here */
+/* project responsive starts here */
+.tittle h2 {
+	font-size: 43px;
+	width: auto;
+	text-align: center;
+}
+.tittle a {
+	font-size: 23px;
+}
+
+.Project .container .project-card img {
+    width: 80%;
+}
+.Project .container .project-card2 img {
+    width: 80%;
+}
+.Project .container .project-card3 img {
+    width: 80%;
+}
+
+.Project .container .project-card2 {
+    text-align: center;
+}
+.Project .container .project-card3 {
+    text-align: center;
+}
+.Project .container .project-card {
+    text-align: center;
+}
+.Project .container .project-card img:nth-child(1) {
+    margin: 30px 0px;
+}
+/* Project Overlays - Disable on Mobile */
+.Project .overly, 
+.Project .overly2, 
+.Project .overly3 {
+    display: none !important;
+}
+
+/* Ensure the hover state doesn't trigger anything else */
+.Project .project-card:hover .overly,
+.Project .project-card2:hover .overly2,
+.Project .project-card3:hover .overly3 {
+    display: none !important;
+}
+/* project responsive ends here */
+/* feature responsvie starts here */
+.features .container h2 {
+	font-size: 30px;
+;   text-align: center;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 12px;
+	padding-bottom: 47px;
+}
+/* features responsive ends here */
+/* clinet responsive starts here */
+
+.client .container h2 {
+	font-size: 35px;
+	text-align: center;
+}
+.client .container p {
+	font-size: 18px;
+	width: auto;
+	text-align: center;
+	line-height: 51px;
+}
+/* client responsive ends here */
+.client .container h3 {
+	font-size: 23px;
+	text-align: center;
+	line-height: 41px;
+}
+.client .container .profile {
+
+	justify-content: center;
+}
+
+.client .container .profile h5 {
+	font-size: 30px;
+	
+}
+.client .container .profile p {
+	font-size: 21px;
+	
+	margin: 0px !important;
+}
+/* client responsive ends here */
+/* feratures responsive starts */
+.frequent .container h4 {
+	font-size: 28px;
+	width: auto;
+	line-height: 46px;
+	text-align: center;
+}
+
+.frequent .container a {
+	font-size: 14px;
+	text-align: center;
+	margin-left: 20px;
+}
+.frequent .container .accordion-header .accordion-button span {
+	font-size: 14px;
+
+	padding-right: 19px;
+}
+
+.frequent .container .accordion-header .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.frequent .accordion-body {
+	padding: 0px 6px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.frequent .accordion-header {
+	padding: 7px 0px;
+}
+/* features responsive ends here */
+/* contact-us responsive start */
+.contact-us img {
+	width: 100%;
+	
+}
+.contact-us .contatc-content {
+	width: 100%;
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact-us .contatc-content p {
+	font-size: 22px;
+	
+	text-align: center;
+}
+.contact-us .contatc-content h4 {
+	font-size: 32px;
+	;
+	text-align: center;
+}
+.contact-us .contatc-content input {
+	width: 100%;
+	padding: 16px 18px;
+	color: white;
+	font-size: 24px;
+}
+.contact-us .contatc-content input::placeholder {
+	font-size: 20px;
+}
+.contact-us .contatc-content button {
+	padding: 11px 0px;
+	font-size: 21px;
+	font-weight: 400;
+}
+.tittle .viewpricing-button {
+	margin-left: 11px;
+}
+/* contact-us responsive end here */
+/* footer responsive  start*/
+
+
+footer .contact-part {
+	width: auto;
+	bottom: -320px;
+	left: 204px;
+	padding: 18px;
+	border-radius: 10px;
+}
+footer .contact-part .contact-part-one h6 {
+	
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-two h6 {
+
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-one p {
+	
+	font-size: 14px;
+	margin-right: 10px;
+
+}
+footer .contact-part .contact-part-two p {
+	
+	font-size: 14px;
+	
+}
+footer .contact-part .contact-part-one 
+{
+	text-align: center;
+}
+footer .contact-part .contact-part-two{
+	text-align: center;
+}
+footer .pone {
+	font-size: 17px;
+	width: auto;
+	padding-top: 22px;
+	text-align: center;
+}
+footer .tittle h2 {
+	font-size: 30px;
+	width: auto;
+	text-align: center;
+}
+footer .container .foooter-center {
+
+ text-align: center
+}
+footer .container .foooter-icons-center {
+	text-align: center;
+	font-size: 14px;
+}
+footer ul {
+	
+	text-align: center;
+	margin-left: 150px;
+} 
+/* footer responsive ends */
+/* blog responsive starts  */
+.blog h2 {
+	font-size: 48px;
+	
+	text-align: center;
+}
+/* blog responsive ends */
+}

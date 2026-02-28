@@ -341,46 +341,48 @@ color: rgba(252, 217, 128,1);
  margin: 0 auto;
  padding-top: 12px;
  padding-bottom: 47px;
+ text-align: center;
  
 
 }
-.features .container .box-card1{
-    background-color: rgba(255, 255, 255,1);
-   
-   
-   
-   
+.features .container .row {
+   row-gap: 30px;
 }
-
+.features .container .card:hover {
+  transform: translateY(-13px);
+}
+.features .container .card .card-img-top {
+    width: 12%;
+}
+.features .container .card {
+    width: 100% !important;
+    border: none !important;
+    padding: 58px 32px 48px 48px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 255,0.3);
+    transition: .5s;
+    
+}
+.features .container .card .card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(40, 41, 56,1);
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.features .container .card .card-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(40, 41, 56,1);
+} 
+.features .container .card .card-body {
+    padding: 0px !important;
+}
 .features{
     background-color:rgba(244, 246, 252,1);
-    padding-top: 35px;
+    padding: 128px 0px;
 }
-.features .container .box-card1 h2 {
-         font-size: 24px;
-    font-weight: 500;
-     font-family: "Poppins", sans-serif;
-     color: rgba(40, 41, 56,1);
-     padding-bottom: 12px;
-     padding-top: 22px;
-     padding-left: 48px;
-
-}
-.features .container .box-card1 img {
-    padding-left: 48px;
-    padding-top: 58px;
-}
-.features .container .box-card1 p {
-    padding-left: 48px;
-         font-size: 24px;
-    font-weight: 400;
-     font-family: "Poppins", sans-serif;
-    
-     color: rgba(40, 41, 56,.70);
-     padding-bottom: 48px;
-     width: 324.08;
-   
-    }
     /* features css ends here */
     /*clients css starts here  */
 .client {
@@ -484,6 +486,7 @@ color: rgba(252, 217, 128,1);
      padding-right: 59px;
    
 }
+
 .frequent .accordion-body {
     padding: 0px 102px;
       font-size: 18px;
