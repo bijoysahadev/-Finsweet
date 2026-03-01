@@ -10,6 +10,16 @@
 .navbar-toggler:focus {
   box-shadow: 0 0 0 transparent !important;
 }
+nav .nav-item::after {
+    height: 2px;
+    width: 0%;
+    background-color: #ECECF1;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    content:none;
+    transition: .5s;
+}
 .navbar-nav {
     align-items: center;
   
@@ -25,6 +35,7 @@
     font-size: 14px !important;
    
 }
+
 /*  */
 
 /*  */
@@ -239,6 +250,9 @@ nav .nav-button {
 	width: 100%;
 	
 }
+.contact-us .container .overly {
+	display: none;
+}
 .contact-us .contatc-content {
 	width: 100%;
 	
@@ -268,6 +282,17 @@ nav .nav-button {
 	margin-left: 11px;
 }
 /* contact-us responsive end here */
+/* blog responsive starts here */
+.blog .container .row 
+{
+	row-gap: 20px;
+}
+.blog h2 {
+	font-size: 48px;
+	
+	text-align: center;
+}
+/* blog responsive ends here */
 /* footer responsive  start*/
 
 
@@ -360,8 +385,18 @@ footer ul {
       margin: 20px 0px;
 }
 .nav-link {
-    font-size: 14px !important;
+    font-size: 29px !important ;
    
+}
+nav .nav-item::after {
+    height: 2px;
+    width: 0%;
+    background-color: #ECECF1;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    content:none;
+    transition: .5s;
 }
 /*  */
 
@@ -422,7 +457,12 @@ nav .nav-button {
 /* bannner responsive ends here */
 /* work responsive stars here */
 }
-
+/* blog responsive starts here */
+.blog .container .row 
+{
+	row-gap: 20px;
+}
+/* blog responsive ends here */
 .tittle h2 {
 	
 	font-size: 36px;
@@ -431,9 +471,8 @@ nav .nav-button {
 	text-align: center;
 }
 .tittle p {
-	width:auto;
-	font-size: 14px;
-	
+	width: auto;
+	font-size: 19px;
 	text-align: center;
 }
 .tittle .viewpricing-button {
@@ -467,16 +506,15 @@ nav .nav-button {
 /* work responsive  ends here */
 /* project responsive starts here */
 .tittle h2 {
-	font-size: 25px;
+	font-size: 43px;
 	width: auto;
 	text-align: center;
 }
 .tittle a {
-	font-size: 12px;
+	font-size: 22px;
 }
-
 .Project .container .project-card img {
-    width: 80%;
+    width: 87%;
 }
 .Project .container .project-card2 {
     text-align: center;
@@ -513,19 +551,27 @@ nav .nav-button {
 	padding-top: 12px;
 	padding-bottom: 47px;
 }
+.features .container h6 {
+	text-align: center;
+	color: rgba(40, 41, 56,1);
+	font-size: 34px;
+	font-weight: 500;
+	font-family: "Poppins", sans-serif;
+}
 /* features responsive ends here */
 /* clinet responsive starts here */
 
 .client .container h2 {
-	font-size: 21px;
-  text-align: center;
+	font-size: 33px;
 }
-.client .container p {
-	font-size: 14px;
+
+
+
+
+.client .container h3 {
+	font-size: 22px;
 	
-	width: auto;
-	text-align: center;
-	line-height: 51px;
+	
 }
 /* client responsive ends here */
 .client .container h3 {
@@ -536,7 +582,7 @@ nav .nav-button {
     line-height: 41px;
 }
 .client .container .profile {
-
+    margin-left: 196px;
 	justify-content: center;
 }
 /* feratures responsive starts */
@@ -552,24 +598,31 @@ nav .nav-button {
 	text-align: center;
 	margin-left: 20px;
 }
-.frequent .container .accordion-header .accordion-button span {
-	font-size: 14px;
 
-	padding-right: 19px;
-}
 
 .frequent .container .accordion-header .accordion-button {
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: 400;
 }
 .frequent .accordion-body {
 	padding: 0px 6px;
-	font-size: 14px;
+	font-size: 25px;
 	font-weight: 500;
 }
 .frequent .accordion-header {
-	padding: 7px 0px;
+	padding: 15px 0px;
 }
+.frequent .container .accordion-header .accordion-button span {
+	font-size: 25px;
+	
+}
+/* blog rersponsive starts  */
+.blog h2 {
+	font-size: 48px;
+
+	text-align: center;
+}
+/* blog responsive ends here */
 /* features responsive ends here */
 /* contact-us responsive start */
 .contact-us img {
@@ -590,6 +643,9 @@ nav .nav-button {
 }
 .contact-us .contatc-content input::placeholder {
 	font-size: 12px;
+}
+.contact-us .container .overly {
+	display: none;
 }
 .contact-us .contatc-content button {
 	
@@ -695,13 +751,24 @@ footer ul {
 .nav-link {
 	font-size: 27px !important;
 }
+nav .nav-item::after {
+    height: 2px;
+    width: 0%;
+    background-color: #ECECF1;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    content:none;
+    transition: .5s;
+}
 /*  */
 
 /*  */
+
 nav .nav-button {
-	padding: 12px 30px;
+	padding: 19px 39px !important;
 	margin-bottom: 20px;
-	font-size: 14px;
+	font-size: 20px !important;
 	margin-left:0px !important;
 }
 nav .nav-button-center {
@@ -727,9 +794,9 @@ nav .nav-button-center {
 	line-height: 42px;
 }
 .banner-button {
-	padding: 9px 39px;
+	padding: 19px 39px;
 	
-	font-size: 14px;
+	font-size: 20px;
 	
 	
 }
@@ -739,7 +806,7 @@ nav .nav-button-center {
 }
 .viewpricing-button {
 	
-	font-size: 14px;
+	font-size: 20px;
 	
 	margin-left: 30px;
 	
@@ -856,6 +923,12 @@ nav .nav-button-center {
 /* features responsive ends here */
 /* clinet responsive starts here */
 
+/* blog responsive starts here */
+.blog .container .row 
+{
+	row-gap: 20px;
+}
+/* blog responsive ends here */
 .client .container h2 {
 	font-size: 35px;
 	text-align: center;
@@ -895,24 +968,26 @@ nav .nav-button-center {
 	text-align: center;
 }
 
+/*  */
+
 .frequent .container a {
-	font-size: 14px;
+	font-size: 23px;
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 140px;
 }
 .frequent .container .accordion-header .accordion-button span {
-	font-size: 14px;
+	font-size: 30px;
 
-	padding-right: 19px;
+	padding-right: 20px;
 }
 
 .frequent .container .accordion-header .accordion-button {
-	font-size: 14px;
+	font-size: 30px;
 	font-weight: 400;
 }
 .frequent .accordion-body {
-	padding: 0px 6px;
-	font-size: 14px;
+	padding: 10px 6px;
+	font-size: 30px;
 	font-weight: 500;
 }
 .frequent .accordion-header {
@@ -923,6 +998,9 @@ nav .nav-button-center {
 .contact-us img {
 	width: 100%;
 	
+}
+.contact-us .container .overly {
+	display: none;
 }
 .contact-us .contatc-content {
 	width: 100%;
