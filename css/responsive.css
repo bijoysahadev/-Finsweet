@@ -43,9 +43,11 @@ nav .nav-button {
     padding: 12px 30px;
     margin-bottom: 20px;
     font-size: 14px;
-    margin-left: 204px;
-    
+    margin-left: 22px;
 }
+nav .nav-button-center {
+	text-align: center;
+} 
 .nav-button:hover {
     background-color: transparent !important;
     color: WHITE !important;
@@ -132,6 +134,7 @@ nav .nav-button {
 .Work .container .tittle-box-center {
 	text-align: center;
 }
+
 .work-card p {
 	font-size: 14px;
 	
@@ -214,7 +217,8 @@ nav .nav-button {
 	justify-content: center;
 }
 /* feratures responsive starts */
-.frequent .container h4 {
+
+/* .frequent .container h4 {
 	font-size: 28px;
 	width: auto;
 	line-height: 46px;
@@ -244,8 +248,68 @@ nav .nav-button {
 .frequent .accordion-header {
 	padding: 7px 0px;
 }
+.frequent .container .accordion-header .accordion-button {
+    font-size: 16px;
+  
+} */
 /* features responsive ends here */
 /* contact-us responsive start */
+/*  */
+
+
+/* FAQ (Frequent) Section Responsive */
+.frequent {
+    padding: 60px 0; /* Reduced vertical padding for mobile */
+}
+
+.frequent .container h4 {
+    font-size: 28px !important;
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.frequent .container a {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px; /* Space between title and accordion */
+}
+
+/* Accordion Item Adjustments */
+.frequent .accordion-item {
+    border-bottom: 1px solid #ECECF1 !important;
+}
+
+.frequent .accordion-button {
+    font-size: 16px !important;
+    padding: 20px 0 !important;
+    white-space: normal; /* Allows text to wrap naturally on very small phones */
+    text-align: left;
+    display: flex;
+    align-items: flex-start; /* Aligns number with the first line of text */
+}
+
+.frequent .accordion-button span {
+    font-size: 16px;
+    color: #2405F2;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+/* Accordion Body text */
+.frequent .accordion-body {
+    padding: 0 0 20px 31px !important; /* Indent text to align with the question */
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(40, 41, 56, 0.7);
+}
+
+/* Adjusting the column layout */
+.frequent .col-lg-4 {
+    margin-bottom: 20px;
+}
+/*  */
 .contact-us img {
 	width: 100%;
 	
@@ -354,11 +418,10 @@ footer .container .foooter-icons-center {
 	text-align: center;
 	font-size: 14px;
 }
-footer ul {
-	
-	text-align: center;
-	margin-left: 150px;
-} 
+.footer-below ul {
+  
+    column-gap: 15px;
+}
 /* footer responsive ends */
 }
 @media (min-width:576px) and (max-width:767.99px) {

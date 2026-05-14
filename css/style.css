@@ -40,6 +40,10 @@ a{
    opacity: 1;
    overflow: visible;
 }
+html,body {
+    overflow-x: hidden;
+    width: 100%;
+}
 /* comon css ends here */
  nav {
     background: #1C1E53;
